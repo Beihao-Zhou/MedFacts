@@ -17,16 +17,16 @@ However, sometimes people may have private questions regarding their personal he
 ## How I built it
 Many technologies are applied for the full stack web app. The frontend of the app is developed using React and Redux, along with Material UI to improve the user interface. Besides, the server is handled using Express and Node.js, and RESTful API is implemented to communicate with MongoDB as well. To securely authenticate and authorize users, JWT is used for manual login in and sign up, whereas Google OAuth is also available. 
 
-## Challenges we ran into
+## Challenges I ran into
 - This is the first time for me to build an end-to-end project rather than focusing on either frontend or backend as before; therefore, time limitation imposes great stress on me.
 - When fetching private messages through Redux, the process is slow and unstable, and the chat window keeps flickering; after trials and errors, I found that purely using useEffect to fetch the data would be the most feasible way.
 - Socket.io is utilized for real-time chat functionality but it doesn’t work when I integrate the authentication middleware. Eventually, the messages are fetched and stored using MongoDB. 
 
-## Accomplishments that we're proud of
+## Accomplishments that I've proud of
 - Successfully completed the end-to-end full-stack web app independently
 - Managed to create a platform that can deal with the real-world problem
 
-## What we learned
+## What I learned
 - Use Redux to centralize the application's state and logic, enabling powerful capabilities like undo/redo, state persistence, and much more.
 - Design RESTful API and schema, bridging the gap between frontend and backend
 - Use JWT to securely authenticate each registered user, keeping the community a safe and inclusive place
