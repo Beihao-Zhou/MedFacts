@@ -22,7 +22,7 @@ app.use('/conversations', conRoutes);
 app.use('/messages', messageRoutes);
 
 app.get('/', (req,res) => {
-    res.send('Hello to Memories API');
+    res.send('Hello to MedFacts API');
 })
 
 // connect to mongodb atlas
